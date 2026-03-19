@@ -72,6 +72,13 @@
   - !type:PlayerGUIDLoadoutEffect
     guid: 86e10de7-0259-498b-87c6-45739aa1e18d
 
+- type: loadoutEffectGroup
+  id: TheGungeonologist
+  effects:
+  - !type:PlayerGUIDLoadoutEffect
+    guid: 03cb0c9e-0de7-44dd-8466-d392620381fa
+
+#03cb0c9e-0de7-44dd-8466-d392620381fa
 # - type: loadoutEffectGroup
 #   id: Cog
 #   effects:
@@ -161,3 +168,12 @@
   storage:
     back:
     - PatreonGribley
+
+- type: loadout
+  id: PatreonTheGungeonologist
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: TheGungeonologist
+  storage:
+    back:
+    - PatreonTheGungeonologist
